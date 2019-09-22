@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="64dp"
+    android:layout_height="128dp"
+    android:background="#00000000"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <ImageView
+        android:id="@+id/hole_top_half_inner"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/hole_inside" />
+
+    <ImageView
+        android:id="@+id/the_mole"
+        android:layout_width="64dp"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="matrix"
+        android:src="@drawable/ic_android_lime_64"
+        android:translationY="18dp" />
+
+    <ImageView
+        android:id="@+id/hole_bottom_half"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_half_hole_bottom_128"
+        android:tint="#000" />
+
+</merge>
