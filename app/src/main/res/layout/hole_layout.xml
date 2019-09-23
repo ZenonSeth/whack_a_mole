@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="64dp"
     android:layout_height="128dp"
@@ -17,12 +17,11 @@
     <ImageView
         android:id="@+id/the_mole"
         android:layout_width="64dp"
-        android:clickable="true"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:clickable="true"
         android:scaleType="matrix"
         android:src="@drawable/ic_android_lime_64"
-        android:translationY="18dp" />
+        android:translationY="128dp" />
 
     <ImageView
         android:id="@+id/hole_bottom_half"
@@ -33,4 +32,4 @@
         android:src="@drawable/ic_half_hole_bottom_128"
         android:tint="#000" />
 
-</merge>
+</RelativeLayout>
